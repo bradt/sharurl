@@ -1,0 +1,140 @@
+form.file-upload {
+	position: relative;
+	margin-top: 21px;
+	width: 988px;
+	height: 571px;
+	overflow: hidden;
+	background: url(../img/home/banner.jpg) no-repeat;
+}
+
+ p.quote {
+	width: 567px;
+	height: 44px;
+	background: url(../img/home/quote.gif) no-repeat;
+	overflow: hidden;
+	text-indent: -5000px;
+	margin: 19px auto 0 auto;
+}
+
+ol.steps {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 378px;
+	position: absolute;
+	top: 73px;
+	left: 44px;
+}
+
+ol.steps li.step {
+	margin-bottom: 24px;
+	background-repeat: no-repeat;
+	text-indent: -5000px;
+	overflow: hidden;
+}
+
+ol.steps li.step-1 {
+	background-image: url(../img/home/step-1.gif);
+	height: 38px;
+}
+
+ol.steps li.step-2 {
+	background-image: url(../img/home/step-2.gif);
+	height: 39px;
+}
+
+ol.steps li.step-3 {
+	background-image: url(../img/home/step-3.gif);
+	height: 37px;
+}
+
+div.upload-button {
+	display: block;
+	width: 404px;
+	height: 148px;
+	position: absolute;
+	top: 264px;
+	left: 26px;
+}
+
+.output {
+	position: absolute;
+	top: 480px;
+	left: 34px;
+	width: 363px;
+}
+
+.output .status {
+	white-space: nowrap;
+	overflow: hidden;
+	color: #ccc;
+	margin-bottom: 6px;
+}
+
+.uploading img {
+	float: left;
+}
+
+.uploading .controls {
+	float: left;
+	margin-left: 6px;
+	width: 325px;
+}
+
+ .uploading .progress div,
+.uploading .progress {
+	background: url(../img/home/total-progress.gif) no-repeat;
+	width: 325px;
+	height: 13px;
+}
+
+.uploading .progress div {
+	background-position: 0 -13px;
+}
+
+.uploading .button-cancel {
+	background-image: url(../img/home/button-cancel.gif);
+	width: 59px;
+	height: 22px;
+	margin-top: 4px;
+	position: absolute;
+	right: 0;
+}
+
+.uploading .button-cancel:hover {
+	background-position: 0px -22px;
+}
+
+.ready {
+	left: 48px;
+}
+
+.ready .url {
+	background: url(../img/home/urlbg.gif) no-repeat;
+	width: 268px;
+	height: 27px;
+	white-space: nowrap;
+	color: #fff;
+	font-size: 17px;
+	padding: 7px 10px 0 10px;
+	float: left;
+	border: none;
+}
+
+ .ready object {
+	margin-left: 6px;
+	float: left;
+}
+
+.upload-error {
+	position: absolute;
+	top: 420px;
+	left: 46px;
+	width: 323px;
+
+	background-color: #fff;
+	padding: 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	line-height: 1.2em;
+}

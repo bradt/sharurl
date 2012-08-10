@@ -1,0 +1,37 @@
+#body .content table th,
+#body .content table td {
+    padding: 10px 20px 10px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+#body .content table tr.deleted td {
+    text-decoration: line-through;
+}
+
+#body .content table .size {
+    text-align: right;
+}
+
+#body .content table .created {
+    text-align: center;
+}
+
+#body .content table .details .url {
+    font-size: 1.2em;
+}
+
+#body .content table .details .files {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+#body .content table .details .files li {
+    display: inline;
+    font-size: 0.8em;
+}
+
+#body .content table .details .more-less {
+    font-size: 0.8em;
+}

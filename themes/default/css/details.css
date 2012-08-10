@@ -1,0 +1,80 @@
+.first {
+	margin-top: 0;
+}
+
+form {
+	margin-top: 5em;
+	font-size: 0.85em;
+}
+
+p.url {
+	margin-top: 0.5em;
+}
+
+#url-field {
+	font-size: 1.6em;
+	width: 98%;
+}
+
+div.settings {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	padding: 10px;
+}
+
+fieldset {
+	float: left;
+	border: 0;
+	padding: 0;
+}
+
+fieldset.left {
+	width: 300px;
+}
+
+fieldset.right {
+	margin-left: 40px;
+	width: 200px;
+}
+
+p.buttons {
+	background-color: #ccc;
+	padding: 10px;
+	margin: 0;
+}
+
+div.field {
+	margin-bottom: 1em;
+}
+
+div.textarea label,
+div.textbox label {
+	display: block;
+}
+
+div.textarea {
+	margin-top: 1em;
+}
+
+div.textarea textarea,
+div.textbox input {
+	width: 100%;
+}
+
+div.textarea textarea {
+	height: 150px;
+}
+
+div.checkbox input {
+	overflow: hidden;
+}
+
+div.checkbox input {
+	float: left;
+	margin-right: 1em;
+}
+
+div.checkbox label {
+	display: block;
+}

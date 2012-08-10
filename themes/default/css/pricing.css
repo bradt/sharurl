@@ -1,0 +1,75 @@
+#body .content .plans ul,
+#body .content ul.plans {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#body .content ul.plans {
+    overflow: hidden;
+    margin: 0 0 2em 10px;
+}
+
+.plan {
+    margin-top: 1.5em;
+    width: 140px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    float: left;
+}
+
+#body .content .plan h3 {
+    font-size: 1.6em;
+    margin-bottom: 0.3em;
+}
+
+.plan h4 {
+    font-size: 1.2em;
+    color: #07438B;
+    font-weight: normal;
+}
+
+.plan h5 {
+    color: #000;
+}
+
+#body .content .plan ul {
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    padding-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#body .content .plan p {
+    margin: 0;
+}
+
+.plan p.signup a {
+    font-weight: bold;
+}
+
+.plan-small {
+    border-left: 0;
+}
+
+.plan-large {
+    border-right: 0;
+}
+
+.plan-regular {
+    padding: 30px;
+    width: 170px;
+    margin-top: 0;
+    font-size: 1.2em;
+    border-width: 4px;
+}
+
+.intro {
+    text-align: center;
+}
+
+#body .content p.trial {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #7F4E25;
+}

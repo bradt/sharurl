@@ -1,0 +1,30 @@
+.content p {
+    line-height: 1.4em;
+}
+
+h2 {
+    margin: 0;
+}
+
+.feature,
+.feature-img {
+    margin: 2em 0;
+    width: 300px;
+    float: left;
+    clear: left;
+}
+
+.feature-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.feature h3,
+.feature p {
+    margin: 0;
+}
+
+.right {
+    float: right;
+    clear: none;
+}

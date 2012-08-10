@@ -1,0 +1,18 @@
+<IfModule mod_security.c>
+#<Location "/upload/file/">
+SecFilterEngine Off
+SecFilterScanPOST Off
+#</Location>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^invite/.* /pricing/ [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+php_value post_max_size 2047M
+php_value upload_max_filesize 2047M

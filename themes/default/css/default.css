@@ -1,0 +1,638 @@
+/* START Eric Meyer's Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* END Eric Meyer's Reset CSS */
+
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background-color: #b6b6b6;
+	font-size: 0.9em;
+	background: #b6b6b6 url(../img/header/bg-repeat.gif) repeat-x;
+}
+
+a {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff3333;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 1.35em;
+}
+
+h2 {
+	font-size: 2.5em;
+	margin-top: 0;
+	font-family: myfont, Arial, sans-serif;
+	color: #555;
+	letter-spacing: 0.05em;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-family: myfont, Arial, sans-serif;
+	color: #555;
+	letter-spacing: 0.05em;
+}
+
+h1.site-title a {
+	display: block;
+	width: 502px;
+	height: 77px;
+	text-indent: -5000px;
+	overflow: hidden;
+	margin: 0 auto;
+	background: url(../img/sharurl-logo-large.gif) no-repeat;
+}
+
+h2.site-subtitle {
+	margin: 0.5em 0 3em 0;
+	text-align: center;
+}
+
+h2.site-subtitle a {
+	color: #000099;
+}
+
+h2.site-subtitle a:hover {
+	color: #3333cc;
+}
+
+blockquote {
+	margin-left: 20px;
+	border-left: 6px double #ccc;
+	padding-left: 10px;
+	font-size: 0.9em;
+	clear: left;
+}
+
+ul, ol {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+dd {
+	margin-left: 0;
+}
+
+acronym, abbr {
+	cursor: help;
+}
+
+textarea,
+input[type=text],
+input.text {
+	font-family: Arial, Verdana, sans-serif;
+	background: #fff url(../img/bg-textbox.gif) no-repeat top right;
+	border: 1px solid #999;
+	padding: 0.3em 0.3em 0.2em 0.3em;
+}
+
+input[type=text],
+input.text {
+	font-size: 1.5em;
+}
+
+textarea {
+	font-size: 0.9em;
+}
+
+.button {
+	width: 105px;
+	height: 32px;
+	background-repeat: no-repeat;
+}
+
+a.button {
+	display: block;
+	text-indent: -5000px;
+	overflow: hidden;
+	position: relative;
+}
+
+.button-login {
+	background-image: url(../img/button/login.gif);
+}
+
+.button-submit {
+	background-image: url(../img/button/submit.gif);
+}
+
+.button-signup {
+	background-image: url(../img/button/signup.gif);
+}
+
+.button-save {
+	background-image: url(../img/button/save.gif);
+}
+
+.button:hover {
+	background-position: 0px -32px;
+}
+
+.error {
+	margin: 0;
+	color: #8a0000;
+}
+
+p.error-msg {
+	font-weight: bold;
+	margin-top: 0;
+	color: #8a0000;
+}
+
+.success-msg {
+	font-weight: bold;
+}
+
+#wrapper {
+	background: #eee url(../img/header/bg-repeat.gif) repeat-x top center;
+	padding-bottom: 4em;
+}
+
+#wrapper2 {
+	background: transparent url(../img/header/bg.jpg) no-repeat top center;
+}
+
+#main {
+	position: relative;
+	width: 988px;
+	margin: 0 auto;
+}
+
+#header {
+	position: relative;
+	height: 100px;
+}
+
+#header h1 {
+	position: relative;
+	top: 21px;
+	left: 0;
+	width: 238px;
+	margin: 0;
+}
+
+#header h1 a {
+	display: block;
+	height: 66px;
+	text-indent: -5000px;
+	overflow: hidden;
+	background: url(../img/header/logo.gif) no-repeat;
+}
+
+#header a {
+	color: #fff;
+}
+
+#header div.account {
+	position: absolute;
+	top: 10px;
+	right: 4px;
+	color: #fff;
+	width: 352px;
+}
+
+#header div.account p.menu {
+	margin-top: 5px;
+	line-height: 1.2em;
+	font-size: 1em;
+	text-align: right;
+}
+
+#header div.account p.menu .user {
+	font-size: 0.9em;
+}
+
+#header div.account p.menu a.current,
+#header div.account p.menu a:hover {
+	text-decoration: underline;
+}
+
+#header div.account p.signup a {
+	color: #ffff00;
+	font-weight: bold;
+}
+
+#header div.account input.text {
+	background-color: #fff;
+	font-size: 0.9em;
+	border: 1px solid #fff;
+	width: 150px;
+	float: right;
+	margin-right: 5px;
+}
+
+#header div.account input.password {
+	width: 100px;
+}
+
+#header div.account input.grayed {
+	color: #999;
+}
+
+#header div.account p {
+	font-size: 0.9em;
+	margin-bottom: 4px;
+	overflow: hidden;
+}
+
+#header div.account form {
+	overflow: hidden;
+}
+
+#header div.account .button-login {
+	background-image: url(../img/button/loginsm.gif);
+	width: 72px;
+	height: 26px;
+	float: right;
+}
+
+#header div.account .button-login:hover {
+	background-position: 0px -26px;
+}
+
+#header ul.nav {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 1.2em;
+	font-weight: bold;
+	overflow: hidden;
+	height: 2em;
+}
+
+#header ul.nav li {
+	margin-right: 4px;
+	float: left;
+	height: 2em;
+	padding: 0.4em 0 0.5em 0;
+	position: relative;
+	top: 3px;
+}
+
+#header ul.nav li a {
+	padding: 0.4em 1.2em 1em 1.2em;
+	color: #ccc;
+	background-color: #222;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#header ul.nav li.current a,
+#header ul.nav li a:hover {
+	color:#fff;
+	background-color: #000;
+}
+
+#header ul.nav li.last {
+	margin-right: 0;
+}
+
+#body {
+	overflow: hidden;
+}
+
+#body div.content-wrapper {
+	width: 741px;
+	margin: 36px auto 0 auto;
+	background: url(../img/body/bg-bottom.jpg) no-repeat bottom left;
+}
+
+#body.with-sidebar div.content-wrapper {
+	float: left;
+}
+
+#body div.content {
+	overflow: hidden;
+	padding: 0 60px;
+	background: url(../img/body/bg-middle.jpg) repeat-y;
+	min-height: 226px;
+}
+
+#body div.content .first {
+	margin-top: 0;
+}
+
+#body div.content-top {
+	height: 56px;
+	background: url(../img/body/bg-top.jpg) no-repeat;
+}
+
+#body div.content-bottom {
+	height: 174px;
+	background: url(../img/body/bg-bottom.jpg) no-repeat bottom left;
+}
+
+#body .content h2,
+#body .content h3,
+#body .content h4,
+#body .content h5,
+#body .content h6 {
+	margin-bottom: 0.5em;
+}
+
+#body .content h3 a {
+	color: #555;
+}
+
+#body .content p {
+	margin-bottom: 1em;
+	line-height: 1.3em;
+}
+
+#body .content table th,
+#body .content table td {
+	padding: 0.2em;
+	line-height: 1.3em;
+}
+
+#body .content table th {
+	font-weight: bold;
+}
+
+#body .content ol {
+	margin-left: 2em;
+	list-style-type: decimal;
+	margin-bottom: 1em;
+}
+
+#body .content ol li,
+#body .content ul li {
+	margin-bottom: 0.5em;
+}
+
+#body .content ul {
+	margin-left: 2em;
+	list-style-type: disc;
+	margin-bottom: 1em;
+}
+
+#body .content .error-msg {
+	margin-left: 170px;
+}
+
+#body .content .field {
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+#body .content .field label {
+	float: left;
+	width: 170px;
+	font-size: 1.2em;
+	line-height: 2em;
+}
+
+#body .content .field input.text {
+	float: left;
+	width: 300px;
+}
+
+#body .content .field p {
+	clear: both;
+	margin: 0 0 0 170px;
+	padding-top: 0.2em;
+}
+
+#body .content .field textarea {
+	width: 441px;
+}
+
+#body .content .field-checkbox {
+	overflow: hidden;
+	margin: 0 0 1em 170px;
+}
+
+#body .content .field-checkbox input.checkbox {
+	float: left;
+	margin: 0 6px 0 0;
+}
+
+#body .content .field-checkbox label {
+	line-height: 1.2em;
+}
+
+#body .content .indicates {
+	font-style: italic;
+}
+
+#body .content form .note {
+	margin-left: 170px;
+}
+
+#body .content .req {
+	color: #8a0000;
+}
+
+#body .content .field .req {
+	margin-left: 0.2em;
+}
+
+#body .content form .button {
+	margin-left: 170px;
+}
+
+#body .content form .signup-link {
+	margin: 1em 0 0 170px;
+}
+
+#body .content .invite-url {
+	font-size: 1.4em;
+}
+
+#body .content .invite-url label {
+	font-weight: bold;
+}
+
+#body .content .download-invite {
+	margin: 5em 0 0 300px;
+}
+
+#body .content .download-url {
+	font-size: 1.4em;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 240px;
+	margin: 50px 6px 0 0;
+}
+
+#sidebar .widget {
+	background: url(../img/sidebar/bg-top.gif) no-repeat;
+}
+
+#sidebar .widget h3 {
+	color: #777;
+	margin-bottom: 0.5em;
+}
+
+#sidebar .widget .widget-wrapper {
+	overflow: hidden;
+	padding: 20px;
+	background: url(../img/sidebar/bg-bottom.gif) no-repeat bottom left;
+}
+
+#sidebar .widget-nav ul li {
+	margin-bottom: 1em;
+	line-height: 1.2em;
+}
+
+#sidebar .widget-nav ul li a {
+	display: block;
+	font-weight: bold;
+	color: #006600;
+	padding-left: 30px;
+	background: url(../img/sidebar/bullet.gif) no-repeat;
+	min-height: 21px;
+}
+
+#sidebar .widget-nav ul li.current a {
+	text-decoration: underline;
+}
+
+#sidebar .widget-nav ul li a:hover {
+	color: #009900;
+}
+
+
+/* Footer */
+
+#footer {
+	background: #b6b6b6 url(../img/footer/bg-repeat.gif) repeat-x;
+	padding-top: 16px;
+	color: #555;
+	font-size: 0.9em;
+	line-height: 1.2em;
+}
+
+#footer a {
+	color: #555;
+	font-weight: bold;
+}
+
+#footer a:hover {
+	color: #444;
+}
+
+#footer p {
+	margin: 0;
+}
+
+#footer div.section {
+	width: 988px;
+	height: 247px;
+	background: #b6b6b6 url(../img/footer/bg.jpg) no-repeat;
+	margin: 0 auto;
+}
+
+#footer h1 {
+	width: 113px;
+	margin: 0;
+}
+
+#footer h1 a {
+	display: block;
+	height: 24px;
+	text-indent: -5000px;
+	overflow: hidden;
+	background: url(../img/footer/logo.gif) no-repeat;
+}
+
+#footer div.copyright {
+	float: left;
+	width: 400px;
+	padding: 40px 0 0 28px;
+}
+
+#footer div.copyright p.line-1 {
+	margin-top: 0.5em;
+}
+
+#footer div.copyright p.line-2 {
+	font-size: 0.9em;
+}
+
+#footer div.links {
+	float: right;
+	width: 400px;
+	padding: 64px 28px 0 0;
+}
+
+#footer div.links p {
+	text-align: right;	
+}
+
+#footer div.links p.nav {
+	margin-top: 0.5em;
+}
+
+#footer div.links p.legal {
+	font-size: 0.9em;
+}

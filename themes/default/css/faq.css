@@ -1,0 +1,10 @@
+#body .content ol {
+    list-style-type: none;
+    margin: 2em 0 0 0;
+}
+
+#body .content ol li {
+    margin: 0 0 2em 0;
+    padding-bottom: 1em;
+    border-bottom: 1px dashed #ccc;
+}
