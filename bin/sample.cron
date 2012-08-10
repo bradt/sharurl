@@ -1,0 +1,1 @@
+10 * * * * /usr/local/bin/php /home/sharurl/sharurl.com/htdocs/bin/cmd.php parse_log >> /home/sharurl/sharurl.com/logs/parse_log.log 2>&1
